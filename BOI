@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="boistyles.css">
+
+<head>
+</head>
+
+<body>
+<header>
+  <ul class="nav">
+    <li><a href="#search">Search</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#journal">Journal</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</header>
+
+<div id="home-image">
+  <h1>BOI</h1>
+  <div class="head-buttons">
+    <h2>Custom clothing for an androgynous world.</h2>
+    <div id ="mrButtons">
+      <div class="buttons" id="button1" type="button1">DOWNLOAD APP</div>
+      <div class="buttons" id="button2" type="button2">WATCH VIDEO</div>
+    </div>
+  </div>
+</div>
+
+
+<div id="girls-image">
+  <div>
+    <div class="boxes">
+      <p class="numbers">1</p>
+      <p class="words">enter dimensions</p>
+      </div>
+    <div class="boxes">
+      <p class="numbers">2</p>
+      <p class="words">choose from your favorite brands</p>
+    </div>
+    <div class="boxes">
+      <p class="numbers">3</p>
+      <p class="words">find your fit</p>
+    </div>
+  </div>
+</div>
+
+<div id="last-page">
+  <div class="last-images">
+      <img class="screentext" src="screentext1.png"/>
+      <img class="screenshots"  id="dimensions" src="boi1-01.png"/>
+      <img class="screenshots" id="shop" src="boi2-01-01.png"/>
+      <img class="screentext" src="screentext2.png"/>
+  </div>
+</div>
+
+
+<footer>
+  <div class=footer>
+    <h3>BOI</h3>
+      <div class="lastbuttons" id="button3" type="button3">DOWNLOAD APP</div>
+      <div class="lastbuttons" id="button4" type="button4">WATCH VIDEO</div>
+  </div>
+  <hr width="75%">
+  <div>
+      <a href="www.facebook.com">
+        <img class="thumbnail"
+        src="facebook.png"/>
+      </a>
+      <a href="www.instagram.com">
+        <img class="thumbnail"
+        src="instagram.png"/>
+      </a>
+      <a href="www.twitter.com">
+        <img class="thumbnail"
+        src="twitter.png"/>
+      </a>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
