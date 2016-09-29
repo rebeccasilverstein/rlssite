@@ -1,0 +1,230 @@
+* {
+  margin: 0
+}
+
+.image {
+   position: relative;
+   width: 100%;
+}
+/*NAV*/
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: AppleMyungjo;
+  font-size: 20px;
+  color: #000000;
+}
+.nav li {
+  float: right;
+}
+
+/*Home Page*/
+h1 {
+  top: 50px;
+  left: 50px;
+  width: 100%;
+  font-family: Gobold;
+  font-size: 165px;
+  color: #000000;
+  margin: 50px 0 100px 25px;
+}
+
+h2 {
+  font-family: AppleMyungjo;
+  font-size: 24px;
+  color: #000000;
+}
+
+#home-image{
+  background-image: url("http://i.imgur.com/xIbly2t.png");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 760px;
+  display: flex;
+  flex-direction: column;
+}
+
+.head-buttons{
+  width: 40%;
+  margin: 70px 0 0 150px
+}
+
+.head-buttons h2{
+  margin-bottom: 30px
+}
+
+#mrButtons{
+  display: flex;
+}
+
+.buttons{
+  background: #000000;
+  font-family: Gobold;
+  font-size: 24px;
+  color: #FFFFFF;
+  padding: 20px 30px;
+}
+
+#button1{
+  margin-right: 37px;
+}
+
+#button2{
+  margin-left: 37px;
+}
+
+/*GIRLS IMAGAE PAGE*/
+#girls-image{
+  background: url("http://i.imgur.com/Mnd1lY2.png");
+  background-attachment: fixed;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#girls-image div{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.boxes{
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.75);;
+  color: white;
+  width: 300px;
+  height: 300px;
+  margin-top: 15em;
+}
+
+.numbers{
+  font-family: Gobold;
+  font-size: 74px;
+  color: #FFFFFF;
+}
+
+.words{
+  /* choose from your fav: */
+  font-family: AppleMyungjo;
+  font-size: 26px;
+  color: #FFFFFF;
+  margin-bottom: 3em;
+}
+
+#last-page{
+  background: url("lastpage.png");
+  background-attachment: fixed;
+  /*height: 100vh;*/
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.last-images{
+  text-align: center;
+}
+
+.screenshots{
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 20%;
+  padding: 14px 45px;
+}
+
+.screentext {
+  width: 15%;
+  padding-bottom: 16%
+}
+
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+
+h2 {
+   top: 300px;
+   left: 200px;
+   width: 100%;
+}
+
+.button1 {
+    background-color: black
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    top: 350px;
+    left: 200px;
+    font-size: 16px;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h3 {
+  margin: 50px 0 100px 25px;
+  font-family: Gobold;
+  font-size: 100px;
+  color: #FFFFFF;
+}
+
+.lastbuttons {
+  margin:3em;
+  background: #FFFFFF;
+  font-family: Gobold;
+  font-size: 24px;
+  color: #000000;
+  padding: 20px 20px;
+  margin-bottom: 150px;
+  /*text-align: center;*/
+}
+
+
+img.thumbnail {
+  width: 25px;
+  height: 25px;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  margin-top: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+hr {
+  margin: 0 auto;
+}
+
+.footer h3{
+  width: 50%;
+}
+
+footer {
+  background: black;
+}
+
+div.footer {
+  border-bottom: 2px grey;
+}
+
